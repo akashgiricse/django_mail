@@ -10,7 +10,7 @@ def sendMail(request):
     if form.is_valid():
         subject = form.cleaned_data.get("subject")
         message = form.cleaned_data.get("message")
-        send_mail(subject, message, 'from@example.com', ['to@example.com'], fail_silently=False)
+        send_mail(subject, message, 'mrrango2311@gmail.com', ['mrrango2311@gmail.com'], fail_silently=False)
 
         return redirect("mail")
 
